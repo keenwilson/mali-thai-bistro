@@ -4,7 +4,6 @@ body {
     background: #b24f83;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #9e1f62, #b24f83);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #9e1f62, #b24f83); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .title,
@@ -32,12 +31,32 @@ a.review-link:hover {
 
 .navbar-burger {
     background-color: #9e1f62;
+    height: 84px;
+    width: 84px;
+    margin-top: auto;
 }
 
 #navbarBasicExample {
     padding-top: 0.05em;
     padding-bottom: 0.05em;
 }
+
+.navbar-burger span {
+    height: 1.5px;
+    width: 32px;
+}
+
+.navbar-burger span:nth-child(1) {
+    top: calc(50% - 9px);
+}
+
+.navbar-burger span:nth-child(2) {
+    top: calc(50% - 1px);
+}
+.navbar-burger span:nth-child(3) {
+    top: calc(50% + 7px);
+}
+
 
 h1,
 h2,
@@ -55,7 +74,7 @@ h6 {
 }
 
 #site-header {
-    background-image: url("../img/img-restaurant-windowseating.jpg");
+    background-image: url("../images/img-restaurant-windowseating.jpg");
     background-position: 50% 39%; 
     background-size: 100%;
     background-repeat: no-repeat;
@@ -93,6 +112,11 @@ h6 {
     background-color:#9e1f62;
 }
 
+.has-background-gradients {
+    background: #b24f83;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9e1f62, #b24f83);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9e1f62, #b24f83); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .has-background-clear {
     background-color: transparent;
