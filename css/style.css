@@ -1,0 +1,147 @@
+body {
+    color: hsl(0, 0%, 98%);
+    font-family: 'Montserrat', sans-serif;
+    background: #b24f83;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9e1f62, #b24f83);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9e1f62, #b24f83); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title,
+.subtitle,
+.navbar-menu a.navbar-item,
+.footer-link,
+.contact-lists a.contact-info,
+.review-link,
+.scroll-to-top {
+    color: hsl(0, 0%, 98%);
+}
+.navbar-menu a.navbar-item:hover,
+.contact-lists a.contact-info:hover,
+a.review-link:hover {
+    color: #b24f83;
+}
+
+.lunch,
+.dinner,
+.bowl,
+.pot {
+    color: #c98ba1;
+    font-weight: 700;
+}
+
+.navbar-burger {
+    background-color: #9e1f62;
+}
+
+#navbarBasicExample {
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.site-logo {
+    max-width: 250px;
+    border-radius: .4em .4em .4em .4em;
+}
+
+#site-header {
+    background-image: url("../img/img-restaurant-windowseating.jpg");
+    background-position: 50% 39%; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#welcome-image,
+#restaurant-image {
+    width: 400px;
+    height: 226px;
+}
+.restaurant {
+    border-radius: .4em .4em .4em .4em;
+}
+
+.image img.restaurant {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.restaurant-title {
+    padding-top: 1em;
+}
+
+.centered-and-cropped {
+    object-fit: cover;
+}
+
+.has-background-mali-purple {
+    background-color: #9e1f62;
+}
+
+
+.has-background-mali-brown {
+    background-color:#9e1f62;
+}
+
+
+.has-background-clear {
+    background-color: transparent;
+}
+.action-menu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.introduction {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.menu-description {
+    margin-bottom: 1rem;
+}
+
+.end-menu-item {
+    margin-bottom: 2rem;
+}
+
+.menu-title {
+    padding-top: 2rem;
+}
+.menu-list {
+    padding-right: 0.5em;
+}
+
+.table td {
+    border: none;
+    background-color: transparent;
+    color: hsl(0, 0%, 98%);
+}
+
+.price,
+.lunch-dinner {
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+.table td.table-price {
+    font-size: 0.8rem;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+
+.google-maps iframe {
+    width: 367px;
+}
+
